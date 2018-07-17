@@ -1,0 +1,425 @@
+[Appium] Welcome to Appium v1.6.5
+[Appium] Non-default server args:
+[Appium]   port: 52845
+[Appium]   loglevel: info
+[Appium]   chromeDriverPort: 52846
+[Appium]   tmpDir: /var/folders/y5/_ty_17t97sg88y783ybtpz1c0000gn/T//Katalon/Appium/Temp1531860813182
+[Appium] Appium REST http interface listener started on 0.0.0.0:52845
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 24 ms - 83 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 15 ms - 83 
+[HTTP] --> POST /wd/hub/session {"desiredCapabilities":{"app":"/Users/dettadk/Downloads/Soulusi 1.0.12-develop-release.apk","autoGrantPermissions":true,"deviceName":"Xiaomi Redmi 3S (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"33f124f27d13"},"capabilities":{"desiredCapabilities":{"app":"/Users/dettadk/Downloads/Soulusi 1.0.12-develop-release.apk","autoGrantPermissions":true,"deviceName":"Xiaomi Redmi 3S (Android 6.0.1)","fullReset":false,"newCommandTimeout":1800,"noReset":true,"platform":"ANDROID","platformName":"Android","udid":"33f124f27d13"},"firstMatch":[{"platformName":"android"}]}}
+[Appium] Creating new AndroidDriver (v1.20.0) session
+[Appium] Capabilities:
+[Appium]   app: '/Users/dettadk/Downloads/Soulusi 1.0.12-develop-release.apk'
+[Appium]   autoGrantPermissions: true
+[Appium]   deviceName: 'Xiaomi Redmi 3S (Android 6.0.1)'
+[Appium]   fullReset: false
+[Appium]   newCommandTimeout: 1800
+[Appium]   noReset: true
+[Appium]   platform: 'ANDROID'
+[Appium]   platformName: 'Android'
+[Appium]   udid: '33f124f27d13'
+[BaseDriver] The following capabilities were provided, but are not recognized by appium: platform.
+[BaseDriver] Session created with session id: 9b0be72d-b24c-4782-a190-55a973b91bab
+[AndroidDriver] Java version is: 1.8.0_102
+[ADB] Checking whether adb is present
+[ADB] Using adb from /Users/dettadk/.katalon/tools/android_sdk/platform-tools/adb
+[AndroidDriver] Retrieving device list
+[AndroidDriver] Using device: 33f124f27d13
+[ADB] Checking whether adb is present
+[ADB] Using adb from /Users/dettadk/.katalon/tools/android_sdk/platform-tools/adb
+[BaseDriver] Using local app '/Users/dettadk/Downloads/Soulusi 1.0.12-develop-release.apk'
+[AndroidDriver] Starting Android session
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/dettadk/.katalon/tools/android_sdk/build-tools/28.0.1/aapt
+[ADB] Cannot read version codes of /usr/local/lib/node_modules/appium/node_modules/io.appium.settings/app/build/outputs/apk/settings_apk-debug.apk and/or io.appium.settings. Assuming correct app version is already installed
+[ADB] Getting device platform version
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/dettadk/.katalon/tools/android_sdk/build-tools/28.0.1/aapt
+[ADB] Extracting package and launch activity from manifest
+[AndroidDriver] Remote apk path is /data/local/tmp/884ed22feae93e33257e2029cccc5c45.apk
+[AndroidDriver] Apk is not yet installed
+[AndroidDriver] installing apk from remote
+[AndroidDriver] Clearing out any existing remote apks with the same hash
+[ADB] App was not uninstalled, maybe it wasn't on device?
+[ADB] Checking whether aapt is present
+[ADB] Using aapt from /Users/dettadk/.katalon/tools/android_sdk/build-tools/28.0.1/aapt
+[ADB] Extracting package and launch activity from manifest
+[ADB] No uiautomator process found to kill, continuing...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Loading json...
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] json loading complete.
+[AndroidBootstrap] Android bootstrap socket is now connected
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Registered crash watchers.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Client connected
+[AndroidDriver] Screen already unlocked, doing nothing
+[Appium] New AndroidDriver session created successfully, session 9b0be72d-b24c-4782-a190-55a973b91bab added to master session list
+[HTTP] <-- POST /wd/hub/session 200 34859 ms - 1146 
+[HTTP] --> GET /wd/hub/status {}
+[HTTP] <-- GET /wd/hub/status 200 12 ms - 83 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/timeouts {"type":"implicit","ms":60000}
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/timeouts 200 17 ms - 76 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source 200 99 ms - 4053 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot 200 3774 ms - 1078562 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source 200 80 ms - 18687 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot 200 2261 ms - 134258 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/window/current/size 200 16 ms - 99 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"1"}]}
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/elements 200 169 ms - 89 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 6 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 6 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 3 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 4 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/1/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":96,"y":417}}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/1/location 200 104 ms - 88 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/touch/perform {"actions":[{"action":"tap","options":{"element":"1","x":1,"y":1}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":96,"y":417}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"1"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":528,"height":96}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"1","x":97,"y":418}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/touch/perform 200 197 ms - 76 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source 200 108 ms - 18687 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot 200 2190 ms - 134170 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source 200 110 ms - 18687 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot 200 2265 ms - 155838 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/window/current/size 200 11 ms - 99 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"2"}]}
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/elements 200 159 ms - 89 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 6 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 3 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 6 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 5 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/2/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"2"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":96,"y":417}}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/2/location 200 25 ms - 88 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/2/clear {"id":"2"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"2"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"Alamat Email"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"2"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/2/clear 200 1459 ms - 76 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/2/value {"id":"2","value":["sgggtg1@gmail.com"]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"2","text":"sgggtg1@gmail.com","replace":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 2
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Text not cleared. Assuming remainder is hint text.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: sgggtg1@gmail.com
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/2/value 500 493 ms - 154 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":13,"value":"Unknown error"}
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source 200 163 ms - 36207 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot 200 2446 ms - 309990 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/window/current/size 200 12 ms - 99 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.ImageButton[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.ImageButton[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.ImageButton[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.ImageButton, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.ImageButton, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/elements 200 915 ms - 89 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"3"}]}
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 3 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 4 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 5 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 5 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/3/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"3"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":528,"y":48}}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/3/location 200 64 ms - 88 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/touch/perform {"actions":[{"action":"tap","options":{"element":"3","x":1,"y":1}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"3"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":528,"y":48}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"3"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":96,"height":96}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"3","x":529,"y":49}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/touch/perform 200 148 ms - 76 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source 200 187 ms - 36207 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot 200 2450 ms - 309966 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source 200 104 ms - 20117 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot 200 2256 ms - 101854 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/window/current/size 200 12 ms - 99 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"4"}]}
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/elements 200 504 ms - 89 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 4 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 5 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 4 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 6 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/4/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"4"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":182,"y":60}}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/4/location 200 28 ms - 88 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/touch/perform {"actions":[{"action":"tap","options":{"element":"4","x":1,"y":1}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"4"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":182,"y":60}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"4"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":430,"height":72}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"4","x":183,"y":61}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/touch/perform 200 107 ms - 76 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source 200 87 ms - 20117 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot 200 2215 ms - 101534 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/window/current/size 200 12 ms - 99 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.LinearLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[2]/android.widget.EditText[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.EditText, INSTANCE=0]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"5"}]}
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/elements 200 651 ms - 89 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 3 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 4 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 5 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 5 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/5/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"5"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":182,"y":60}}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/5/location 200 52 ms - 88 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/5/clear {"id":"5"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getText","params":{"elementId":"5"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getText
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":""}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"5"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/5/clear 200 950 ms - 76 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/5/value {"id":"5","value":["travel"]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:setText","params":{"elementId":"5","text":"travel","replace":false}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: setText
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using element passed in: 5
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Attempting to clear using UiObject.clearText().
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Sending plain text to element: travel
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":13,"value":"Unknown error"}
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/5/value 500 136 ms - 154 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/window/current/size {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"getDeviceSize","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getDeviceSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"height":1280,"width":720}}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/window/current/size 200 8 ms - 99 
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/elements {"using":"xpath","value":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView[1]"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"find","params":{"strategy":"xpath","selector":"//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView[1]","context":"","multiple":true}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: find
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Finding '//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.view.ViewGroup[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/android.widget.RelativeLayout[1]/android.widget.LinearLayout[1]/android.support.v7.widget.RecyclerView[1]/android.widget.LinearLayout[2]/android.widget.RelativeLayout[1]/android.widget.TextView[1]' using 'XPATH' with the contextId: '' multiple: true
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Using: UiSelector[CLASS=android.widget.TextView, INSTANCE=2]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] getElements selector:UiSelector[CLASS=android.widget.TextView, INSTANCE=2]
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Selector ends with instance.
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":[{"ELEMENT":"6"}]}
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/elements 200 452 ms - 89 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 5 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 6 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 4 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 4 ms - 1146 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/6/location {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"6"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/element/6/location 200 29 ms - 88 
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":72,"y":260}}
+[HTTP] --> POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/touch/perform {"actions":[{"action":"tap","options":{"element":"6","x":1,"y":1}}]}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getLocation","params":{"elementId":"6"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getLocation
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"x":72,"y":260}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:getSize","params":{"elementId":"6"}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: getSize
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":{"width":616,"height":34}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"element:click","params":{"elementId":"6","x":73,"y":261}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: click
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":true}
+[HTTP] <-- POST /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/touch/perform 200 142 ms - 76 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source 200 90 ms - 20117 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot 200 3659 ms - 101958 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"action","action":"source","params":{}}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type ACTION
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command action: source
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/source 200 126 ms - 25669 
+[HTTP] --> GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot {}
+[AndroidDriver] Cannot get screenshot data with 'adb exec-out' because of 'Command output is not a valid PNG file (fd504e47 !== 89504e47)'. Defaulting to 'adb shell' call
+[HTTP] <-- GET /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab/screenshot 200 2305 ms - 251698 
+[HTTP] --> DELETE /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab {}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got data from client: {"cmd":"shutdown"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Got command of type SHUTDOWN
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Returning result: {"status":0,"value":"OK, shutting down"}
+[AndroidBootstrap] [BOOTSTRAP LOG] [debug] Closed client connection
+[ADB] No uiautomator process found to kill, continuing...
+[Appium] Removing session 9b0be72d-b24c-4782-a190-55a973b91bab from our master session list
+[HTTP] <-- DELETE /wd/hub/session/9b0be72d-b24c-4782-a190-55a973b91bab 200 2904 ms - 76 
